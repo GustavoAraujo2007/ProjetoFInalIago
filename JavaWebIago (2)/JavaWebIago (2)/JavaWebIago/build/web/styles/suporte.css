@@ -1,0 +1,24 @@
+.main-content {
+    margin-top: 100px;
+}
+
+.carrinhoProdutos {
+    display: grid;
+    grid-template-rows: 0.7fr 1fr 0fr 0fr;
+}
+
+.produto-imagem {
+    width: 70px;
+}
+
+.carrinho-list {
+    max-height: 600px;
+    overflow-y: auto;
+}
+.carrinho-list::-webkit-scrollbar {
+    display: none;
+}
+.preco-carrinho {
+    display: flex;
+    align-items: center;
+}

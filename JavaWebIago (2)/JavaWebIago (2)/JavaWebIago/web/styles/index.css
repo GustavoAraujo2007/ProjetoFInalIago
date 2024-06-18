@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+
+.principal{
+    width: 100vw;
+}
+.principal img{
+    width: 1000px;
+}
+.espaco{
+    height: 15px;
+    background-color: transparent;
+}
+.container {
+    position: relative;
+}
+.btn2{
+    margin-top: 10%;
+    height: 30px;
+}
+.btnImage{
+    width: 10%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+}
+
+.btnImage a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 100%;
+}
+.sign-in-form{
+    background-color: transparent;
+    display: grid;
+    align-content: stretch;
+    justify-content: center;
+    align-items: baseline;
+    justify-items: stretch;   
+}
+
+.sign-in-form button{
+    background-color: blue;   
+}
+
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: row;
+}
+
+
+.produto {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    transition: 0.2s;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+.produto h2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.produto img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+}
+
+.produto p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: revert;
+    color: black;
+}
+
+.produto button {
+    margin-top: 35px;
+    background-color: #6F6C7D;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+.Unico{
+    background-color: trasparent;
+}
+.produto button a input{
+    background-color: transparent;
+    border: none;
+    color: white;
+
+}
+.produto button a {
+    font-family: inherit;
+    font-size: 20px
+}
+.produto:hover {
+    transform: scale(1.1);   
+}
+
+
+
+a{
+    text-decoration-color: white;
+}
+
+.nav-item{
+    transition: 0.2s;
+}
+
+
+.nav-item:hover{
+    transform: scale(1.1); 
+
+}
+.car{
+    transition: 0.2s;
+}
+
+
+.car:hover{
+    transform: scale(1.1); 
+
+}
+.user{
+    transition: 0.2s;
+}
+
+
+.user:hover{
+    transform: scale(1.1); 
+
+}
+
+.carousel {
+    position: relative;
+    margin: 70px;
+}

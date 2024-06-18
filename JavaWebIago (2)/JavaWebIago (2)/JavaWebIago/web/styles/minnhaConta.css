@@ -1,0 +1,11 @@
+  body {
+            font-family: Arial, sans-serif; 
+        }
+        .container-inf {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .table-responsive {
+            margin-top: 20px;
+        }

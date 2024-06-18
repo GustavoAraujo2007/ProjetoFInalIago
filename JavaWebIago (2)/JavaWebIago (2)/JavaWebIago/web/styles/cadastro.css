@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; 
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 900px; 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+.container .box {
+padding: 20px;
+}
+
+
+.box1 {
+    width: 70%;
+    background-color: rgb(5, 226, 178);
+    padding: 20px;
+    border-radius:  10px 0 0 10px;
+}
+
+.caixa {
+    margin-top: 60%;
+    text-align: center; 
+}
+
+
+h2{
+    color: aliceblue;
+}
+.btn1 {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.btn1 button{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.box {
+    width: 100%;
+}
+
+.titulo {
+    text-align: center; 
+}
+
+.input {
+    width: 95%;
+    margin-bottom: 20px;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
+}
+.fa-envelope{
+margin-left: 10px;
+}
+.fa-phone{
+ margin-left: 10px;
+}
+.fa-id-card{
+    margin-left: 10px;
+}
+.fa-lock{
+    margin-left: 10px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.btn {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(5, 226, 178);
+  
+}
+
